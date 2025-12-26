@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,5 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Welcome to My Theme</h1>
+    <p>This is the main index file for my custom theme.</p>
 </body>
-</html>
+</html> -->
