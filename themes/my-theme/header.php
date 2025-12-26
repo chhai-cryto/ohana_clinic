@@ -19,7 +19,7 @@
                     <div class="menu-bar">
                         <ul>
                             <li>
-                                <a href="">Home</a>
+                                <a href="<?php echo home_url('home'); ?>">Home</a>
                             </li>
                             <li>
                                 <a href="<?php echo home_url('first-visit'); ?>">First Visit</a>
