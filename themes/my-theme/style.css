@@ -1,5 +1,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* <!-- contact-us --> */
+
+.contact-us{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #eef6fb;
+    
+}
+
+.contact-us p{
+    font-size: 22px;
+    color: #0b5fa5;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+.contact-us span{
+    color: #45caf6;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.contact-us h1{
+    color: #0b5fa5;
+    font-size: 45px;
+    margin-left: 150px;
+}
+.contact-box {
+    width: 1100px;
+    margin: 50px auto;
+    display: flex;
+    background: #fff;
+    border-radius: 8px;
+}
+
+
+
+.left-info {
+    width: 35%;
+    background: #eef6fb;
+    padding: 30px;
+}
+
+.left-info p{
+    font-size: 18px;
+}
+
+.title {
+    color: #0b5fa5;
+    margin-bottom: 15px;
+}
+
+.info {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.info i {
+    color: #0b5fa5;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.info i:hover {
+    color: #45caf6; 
+}
+
+.social-icons i {
+    margin-right: 15px;
+    font-size: 25px;
+    color: #0b5fa5;
+}
+
+.social-icons i:hover{
+    color: #45caf6;
+}
+.right-form {
+    width: 65%;
+    padding: 40px;
+}
+
+.main-title {
+    color: #0b5fa5;
+    margin-bottom: 10px;
+}
+
+.desc {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+
+.contact-form label {
+    display: block;
+    color:#0b5fa5 ;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.number {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    gap: 20px;
+}
+.textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+.half {
+    width: 50%;
+}
+
+.textarea {
+    height: 120px;
+}
+
+.btn-send {
+    width: 100%;
+    padding: 12px;
+    background: #0b5fa5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-send:hover{
+    background-color: #45caf6;
+    color: white;
+}
+
+
+
 body{
     background-color: gray;
     box-sizing: border-box;
