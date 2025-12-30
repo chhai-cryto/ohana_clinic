@@ -34,7 +34,7 @@
 .container {
     width: 100%;
     padding: 20px 0;
-    background-color: #45caf6;
+    /* background-color: #45caf6; */
 }
 
 .text {
@@ -67,8 +67,8 @@
 
 .line {
     width: 70%;
-    height: 4px;
-    background-color: #45caf6;
+    height: 2px;
+    background-color: #45caf681;
     margin-left: 90px;
 }
 
@@ -95,3 +95,39 @@
     font-family: "Roboto", sans-serif;
 }
 
+.wp-block-media-text {
+    width: 97.2%;
+    padding: 20px;
+   background-color: white;
+   display: flex;
+   gap: 50px;
+}
+
+.wp-block-media-text-contact {
+    width: 36%;
+    padding: 20px;
+    /* background-color: aqua; */
+    margin-left: 140px;
+    
+}
+
+.wp-block-media-text-contact p{
+   font-size: 22px;
+      font-family: "Roboto", sans-serif;
+
+
+}
+
+.wp-block-media-text-img {
+    width: 36%;
+    height: 335px;
+    margin-top: 3%;
+    background-color: black;
+}
+
+.wp-block-media-text-img img {
+    width: 100%;  
+    height: 100%;
+    display: block;
+    /* overflow: hidden; */
+}
