@@ -9,6 +9,7 @@
     <title>Header Page</title>
     <?php wp_head(); ?>
     <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
@@ -19,7 +20,7 @@
                     <div class="menu-bar">
                         <ul>
                             <li>
-                                <a href="">Home</a>
+                                <a href="<?php echo home_url('Home'); ?>">Home</a>
                             </li>
                             <li>
                                 <a href="<?php echo home_url('first-visit'); ?>">First Visit</a>
