@@ -1,5 +1,16 @@
-<?php get_header(); ?>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">  
+     <title>contact</title>
+</head>
+<body>
+    <?php get_header(); ?>
+   
     <!-- contact-us -->
      <div class=" contact-us">
         <p> <span >Home </span>/ Contact Us</p>
@@ -41,7 +52,7 @@
                     </div>
                     <div class="half">
                         <label>Email </label>
-                        <input class="number" type="email" placeholder="Email Address">
+                        <input class="email" type="email" placeholder="Email Address">
                     </div>
                 </div>
 
@@ -54,9 +65,11 @@
                 <button class="btn-send">Send</button>
             </form>
         </div>
-
+  
 </div>
 
-
+  <div class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31273.2101866894!2d104.8470770108398!3d11.541004200000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31095183540eca35%3A0xbe81b4dcb0be7468!2sEcoDent%20Dental%20Clinic!5e0!3m2!1sen!2skh!4v1766717062822!5m2!1sen!2skh" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          
+  </div>
 </body>
 </html>
