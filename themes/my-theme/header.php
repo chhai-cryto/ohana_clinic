@@ -35,7 +35,7 @@
                                 <a href="<?php echo home_url('contact-us'); ?>">Contact us</a>
                             </li>
                             <li>
-                                <a href="<?php echo home_url('access'); ?>">Access and consultation Hours</a>
+                                <a href="<?php echo home_url('access-and-consultation-hours'); ?>">Access and consultation Hours</a>
                             </li>
                         </ul>
                     </div>
