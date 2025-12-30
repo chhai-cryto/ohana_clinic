@@ -1,0 +1,53 @@
+
+body{
+  background-color: white;
+}
+.box {
+    background-color:white;
+    margin: 0;
+}
+.title{
+  text-align:center;
+  font-size:28px;
+  margin:50px 0 30px;
+  letter-spacing:3px;
+}
+
+/* ACCESS */
+.access-table{
+  max-width:900px;
+  margin:auto;
+  width:100%;
+ background-color: white;
+}
+.access-table th{
+  background: #45caf6;
+  width:200px;
+  text-align:left;
+  padding:15px;
+}
+.access-table td{
+  padding:15px;
+  border-bottom:2px solid #eee;
+}
+
+/* DIRECTIONS */
+.direction-grid{
+  max-width:1000px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:30px;
+}
+.card{
+  position:relative;
+}
+.card img{
+  width:100%;
+  border-radius:14px;
+}
+.card p{
+  text-align:center;
+  margin-top:8px;
+}
+
