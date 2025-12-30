@@ -16,8 +16,8 @@ body{
     top: 0;
     left: 0;
     z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .menu{
     display: flex;
     justify-content: space-between;
@@ -223,6 +223,7 @@ body{
     color:#0b5fa5 ;
     margin-bottom: 5px;
     font-weight: bold;
+    margin-left: 10px;
 }
 
 .input{
@@ -241,6 +242,15 @@ body{
     border-radius: 5px;
     gap: 20px;
 }
+
+.email {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 15px;
+}
 .textarea {
     width: 100%;
     padding: 10px;
@@ -258,12 +268,14 @@ body{
     width: 50%;
 }
 
+
+
 .textarea {
     height: 120px;
 }
 
 .btn-send {
-    width: 100%;
+    width: 103.5%;
     padding: 12px;
     background: #0b5fa5;
     color: #fff;
